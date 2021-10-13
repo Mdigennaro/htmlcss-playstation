@@ -1,7 +1,31 @@
-header{
-  height: 100px;
+/*general*/
+.mdg-container{
+  width: 90%;
+  margin: 0 auto;
 }
 
+.mdg-black{
+  color: black !important;
+}
+
+.mdg-white{
+  color: white;
+}
+
+/*header*/
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.mdg-fixed{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+/*header top*/
 .mdg-header-top{
   background-color: black;
   justify-content: end;
@@ -14,12 +38,9 @@ header{
   width: 80px;
 }
 
+/*header bottom*/
 .mdg-chevron{
   width: 10px;
-}
-
-.mdg-black{
-  color: black !important;
 }
 
 .mdg-btn-accedi{
@@ -28,3 +49,45 @@ header{
   border-radius: 17px;
   font-weight: 600;
 }
+
+/*jumbotron*/
+.mdg-jumbotrone{
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mdg-jumbotrone img{
+  width: 250px;
+  filter: grayscale(.3);
+}
+
+.mdg-jumbotrone h1{
+  padding-top: 40px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.mdg-jumbotrone p{
+  padding: 30px 0;
+  font-size: 19px;
+}
+
+.mdg-btn-acquista{
+  background-color: #cd3d0f;
+  color: white;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+
+
+
+
