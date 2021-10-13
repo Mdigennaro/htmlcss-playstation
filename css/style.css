@@ -69,9 +69,9 @@ header{
   filter: grayscale(.3);
 }
 
-.mdg-jumbotrone h1{
-  padding-top: 40px;
-  font-size: 45px;
+.mdg-jumbotrone h2{
+  padding-top: 30px;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -103,6 +103,40 @@ main{
   margin: 20px 0;
 }
 
+/*prodotti playstation*/
+.mdg-prodotti-ps{
+  padding-top: 80px;
+}
 
+.mdg-prodotti-ps span{
+  color: #0072ce;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.mdg-prodotti-ps h2{
+  color: #1f1f1f;
+  font-size: 50px;
+}
+
+.mdg-prodotti-ps p{
+  padding-top: 20px;
+  color: #727272;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.mdg-btn-info{
+  background-color: #2d64e6;
+  color: white;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.mdg-prodotti-ps .row.pt-5 img{
+  width: 100%;
+}
 
 
