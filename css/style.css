@@ -19,6 +19,12 @@ header{
 }
 
 .mdg-black{
-  color: black;
+  color: black !important;
 }
 
+.mdg-btn-accedi{
+  background-color: #363636;
+  color: white;
+  border-radius: 17px;
+  font-weight: 600;
+}
