@@ -235,16 +235,16 @@ main{
   background-color: #bebcbb;
 }
 
-.box-ps-plus p{
+.mdg-box-ps-plus p{
   font-weight: 600;
   font-size: 18px;
 }
 
-.box-ps-plus img{
+.mdg-box-ps-plus img{
   width: 60%;
 }
 
-.box-ps-plus-game img{
+.mdg-box-ps-plus-game img{
   width: 100%;
 }
 
@@ -265,4 +265,19 @@ main{
   .mdg-bg-ps-plus .col-md-6:nth-of-type(2){
     display: none;
   }
+}
+
+/*sconti*/
+.mdg-sconti h2{
+  font-size: 40px;
+}
+
+.mdg-sconti p{
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mdg-box-sconti img{
+  width: 100%;
 }
