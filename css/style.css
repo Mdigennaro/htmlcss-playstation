@@ -142,6 +142,7 @@ main{
 .mdg-box-prodotti img{
   width: 100%;
   padding: 25px;
+  cursor: pointer;
 }
 
 .mdg-box-prodotti span{
@@ -149,11 +150,10 @@ main{
 }
 
 .mdg-box-prodotti{
-  height: 305px;
   margin-bottom: 20px;
 }
 
-.mdg-box-prodotti:active{
+.mdg-box-active:active{
   border-bottom: 3px solid #0072ce;
 }
 
@@ -162,10 +162,11 @@ main{
   display: flex;
   align-items: center;
   width: 100%;
-  height: 700px;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-size: cover;
   background-position: center;
+  padding: 20px 0;
+  margin-top: 40px;
 }
 
 .mdg-jumbotrone-main img{
@@ -174,13 +175,13 @@ main{
 }
 
 .mdg-jumbotrone-main h2{
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 45px;
   font-weight: 600;
 }
 
 .mdg-jumbotrone-main p{
-  padding: 30px 0;
+  padding: 20px 0;
   font-size: 20px;
 }
 
@@ -203,4 +204,29 @@ main{
 .mdg-bg-newg span{
   font-size: 18px;
   font-weight: 600;
+}
+
+/*esplora ps4*/
+.mdg-esplora h2{
+  font-size: 40px;
+}
+
+.mdg-esplora p{
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mdg-esplora h3{
+  font-weight: 600;
+}
+
+.mdg-esplora span{
+  font-size: 20px;
+  font-weight: 600;
+  color: #727272;
+}
+
+.mdg-esplora .mdg-cursor{
+  cursor: auto;
 }
