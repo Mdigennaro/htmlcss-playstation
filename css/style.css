@@ -85,7 +85,7 @@ header{
   color: white;
   border-radius: 25px;
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 /*main*/
@@ -181,6 +181,26 @@ main{
 
 .mdg-jumbotrone-main p{
   padding: 30px 0;
-  font-size: 19px;
+  font-size: 20px;
 }
 
+/*nuovi giochi*/
+.mdg-bg-newg{
+  min-height: 500px;
+  background-color: #1f1f1f;
+}
+
+.mdg-bg-newg h2{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.mdg-bg-newg h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.mdg-bg-newg span{
+  font-size: 18px;
+  font-weight: 600;
+}
