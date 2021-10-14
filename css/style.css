@@ -187,7 +187,6 @@ main{
 
 /*nuovi giochi*/
 .mdg-bg-newg{
-  min-height: 500px;
   background-color: #1f1f1f;
 }
 
@@ -229,4 +228,41 @@ main{
 
 .mdg-esplora .mdg-cursor{
   cursor: auto;
+}
+
+/*PS plus*/
+.mdg-bg-ps-plus{
+  background-color: #bebcbb;
+}
+
+.box-ps-plus p{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.box-ps-plus img{
+  width: 60%;
+}
+
+.box-ps-plus-game img{
+  width: 100%;
+}
+
+.mdg-filter-gray{
+  filter: grayscale(.2);
+}
+
+.mdg-btn-esplora{
+  background-color: #d9dadc;
+  color: #2d64e6;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+@media (max-width:768px){
+  .mdg-bg-ps-plus .col-md-6:nth-of-type(2){
+    display: none;
+  }
 }
