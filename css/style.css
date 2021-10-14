@@ -51,6 +51,10 @@ header{
   font-weight: 600;
 }
 
+.mdg-lens{
+  width: 25px;
+}
+
 /*jumbotron*/
 .mdg-jumbotrone{
   display: flex;
@@ -301,4 +305,29 @@ main{
 .mdg-box-social img{
   width: 100%;
   cursor: pointer;
+}
+
+/*footer*/
+/*left*/
+.mdg-bg-footer{
+  background-color: #00439c;
+}
+
+.mdg-box-footer-left img{
+  width: 80px;
+  margin-bottom: 50px;
+}
+
+.mdg-language img{
+  width: 24px;
+}
+
+/*right*/
+.mdg-box-footer-right nav ul{
+  list-style: none;
+}
+
+/*bottom*/
+.mdg-box-footer-bm img{
+  width: 150px;
 }
