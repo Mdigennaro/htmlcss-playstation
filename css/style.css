@@ -139,4 +139,19 @@ main{
   width: 100%;
 }
 
+.mdg-box-prodotti img{
+  width: 100%;
+  padding: 25px;
+}
 
+.mdg-box-prodotti span{
+  color: black;
+}
+
+.mdg-box-prodotti{
+  height: 225px;
+}
+
+.mdg-box-prodotti:active{
+  border-bottom: 3px solid #0072ce;
+}
