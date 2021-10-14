@@ -292,3 +292,13 @@ main{
     display: none;
   }
 }
+
+/*social*/
+.mdg-sconti h3{
+  font-size: 30px;
+}
+
+.mdg-box-social img{
+  width: 100%;
+  cursor: pointer;
+}
