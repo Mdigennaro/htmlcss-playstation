@@ -68,6 +68,28 @@ header{
   width: 25px;
 }
 
+.mdg-header-bottom a:focus{
+  color: #0072ce !important;
+}
+
+.mdg-dropdown{
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 0;
+}
+
+.mdg-bg-item:hover{
+  background-color: white;
+}
+
+.mdg-point{
+  color: #2d64e6;
+  font-size: 8px;
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+
 /*jumbotron*/
 .mdg-jumbotrone{
   display: flex;
