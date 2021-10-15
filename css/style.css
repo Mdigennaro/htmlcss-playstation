@@ -199,9 +199,9 @@ main{
 
 .mdg-btn-blue:hover{
   border: 3px solid #2d64e6;
-  border-radius: 25px;
+  border-radius: 30px;
   padding: 1px;
-  width: 192px;
+  width: 195px;
 }
 
 .mdg-btn-info:hover{
@@ -305,7 +305,8 @@ main{
 }
 
 .mdg-box-prodotti .mdg-btn-blue{
-  width: 121px;
+  width: 124px;
+  border-radius: 30px;
 }
 
 .mdg-esplora .mdg-cursor{
@@ -371,9 +372,9 @@ main{
 
 .mdg-box-now:hover{
   border: 3px solid lightgray;
-  border-radius: 25px;
+  border-radius: 30px;
   padding: 1px;
-  width: 236px;
+  width: 238px;
 }
 
 @media (max-width:768px){
