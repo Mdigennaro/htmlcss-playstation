@@ -151,6 +151,18 @@ main{
 
 .mdg-box-img{
   margin: 20px 0;
+  cursor: pointer;
+}
+
+.mdg-border-game{
+  padding: 3px;
+  border: 3px solid #2d64e6;
+  border-radius: 25px;
+}
+
+.mdg-selezione-giochi .mdg-box-img:hover{
+  margin: 2px;
+  box-shadow: 0 10px 8px gray;
 }
 
 /*prodotti playstation*/
@@ -215,7 +227,11 @@ main{
   margin-bottom: 20px;
 }
 
-.mdg-box-active:active{
+.mdg-box-element:hover{
+  opacity: 1 !important;
+}
+
+.mdg-box-element:active{
   border-bottom: 3px solid #0072ce;
 }
 
