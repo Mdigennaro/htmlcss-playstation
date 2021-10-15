@@ -51,6 +51,19 @@ header{
   font-weight: 600;
 }
 
+.mdg-btn-accedi:hover{
+  border: 1px solid white;
+  color: white;
+  background-color: gray; 
+}
+
+.mdg-btn-gray:hover{
+  padding: 1px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  width: 78px;
+}
+
 .mdg-lens{
   width: 25px;
 }
@@ -89,7 +102,18 @@ header{
   color: white;
   border-radius: 25px;
   font-weight: 600;
-  padding: 10px 15px;
+  padding: 3px 10px;
+}
+
+.mdg-btn-orange:hover{
+  border: 3px solid #cd3d0f;
+  border-radius: 20px;
+  padding: 1px;
+}
+
+.mdg-btn-acquista:hover{
+  color: white;
+  border: 3px solid black;
 }
 
 /*main*/
@@ -137,6 +161,18 @@ main{
   border-radius: 25px;
   font-weight: 600;
   padding: 10px;
+}
+
+.mdg-btn-blue:hover{
+  border: 3px solid #2d64e6;
+  border-radius: 25px;
+  padding: 1px;
+  width: 192px;
+}
+
+.mdg-btn-info:hover{
+  color: white;
+  border: 3px solid white;
 }
 
 .mdg-prodotti-ps .row.pt-5 img{
@@ -230,6 +266,10 @@ main{
   color: #727272;
 }
 
+.mdg-box-prodotti .mdg-btn-blue{
+  width: 121px;
+}
+
 .mdg-esplora .mdg-cursor{
   cursor: auto;
 }
@@ -257,7 +297,7 @@ main{
 }
 
 .mdg-btn-esplora{
-  background-color: #d9dadc;
+  background-color: #d9d9dc;
   color: #2d64e6;
   border-radius: 25px;
   font-weight: 600;
@@ -289,6 +329,13 @@ main{
 /*ps now*/
 .mdg-bg-ps-now{
   background-color: #161c3b;
+}
+
+.mdg-box-now:hover{
+  border: 3px solid lightgray;
+  border-radius: 25px;
+  padding: 1px;
+  width: 236px;
 }
 
 @media (max-width:768px){
